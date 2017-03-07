@@ -1,0 +1,2 @@
+ms4_prof.cpp: In function ‘void test()’:
+ms4_prof.cpp:121:31: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]

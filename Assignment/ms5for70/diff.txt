@@ -1,0 +1,10 @@
+
+In line number 20 of your output:
+The output should be:
+   6 | 124    |Corn                |   4.00|   0|Packs     | 140|2018/04/03
+But your output is: 
+   6 | 124    |Corn                |   4.00|   0|Packs     | 140|2018/ 4/ 3
+                                                                      ^
+----------------------------------------------------------------------|
+Professors character ASCII code: hex(30), dec(48)
+un-matched character ASCII code: hex(20), dec(32)

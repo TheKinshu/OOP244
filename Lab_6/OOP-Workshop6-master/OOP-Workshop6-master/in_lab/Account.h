@@ -1,0 +1,21 @@
+#ifndef SICT_ACCOUNT_H__
+#define SICT_ACCOUNT_H__
+#include <iostream>
+namespace sict{
+  class Account{
+    char name_[41];
+    double balance_;
+  public:
+    Account();
+	Account& operator+=(const Account& b);
+	Account& operator+(const Account& b);
+	Account& operator=(const Account& b);
+	Account& operator<<(const Account& b);
+    Account(double balance);
+    Account(const char name[], double balance = 0.0);
+    void display(bool gotoNewline = true)const;
+
+  };
+};
+
+#endif

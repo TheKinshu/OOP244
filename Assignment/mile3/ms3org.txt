@@ -1,0 +1,24 @@
+Script started on Mon 14 Mar 2016 09:05:48 PM EDT
+fardad.soleimanloo@matrix:~/oop244/MS3> a.out
+Linear: one two 
+As is: 
+one
+two
+
+Enter the folowing: 
+three<ENTER>
+four<ENTER>
+<Ctrl-D>
+
+three
+four
+one two three four 
+one
+two
+three
+four
+
+fardad.soleimanloo@matrix:~/oop244/MS3> exit
+exit
+
+Script done on Mon 14 Mar 2016 09:06:15 PM EDT

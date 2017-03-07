@@ -1,0 +1,10 @@
+
+In line number 5 of your output:
+The output should be:
+2- Display product
+But your output is: 
+2- Display products
+                  ^
+------------------|
+Professors character ASCII code: hex(d), dec(13)
+un-matched character ASCII code: hex(73), dec(115)

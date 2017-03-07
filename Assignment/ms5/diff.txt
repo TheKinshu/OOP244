@@ -1,0 +1,10 @@
+
+In line number 191 of your output:
+The output should be:
+P,1234,water,1.5,0,1,liter,5,2017/10/12
+But your output is: 
+P,1234,water,1.5,0,1,Liter,5,2017/10/12
+                     ^
+---------------------|
+Professors character ASCII code: hex(6c), dec(108)
+un-matched character ASCII code: hex(4c), dec(76)

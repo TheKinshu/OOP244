@@ -1,0 +1,111 @@
+Script started on Sat 16 Apr 2016 11:03:14 PM EDT
+kcho18@matrix:~/OOP244/Complete/Assignment/ms5for70> ms5[Kfor70
+75%submission:
+Disaster Aid Supply Management Program
+1- List products
+2- Display product
+3- Add non-perishable product
+4- Add perishable product
+5- Add to quantity of purchased products
+0- Exit program
+> 1
+
+ Row | SKU    | Product Name       | Cost  | QTY| Unit     |Need| Expiry   
+-----|--------|--------------------|-------|----|----------|----|----------
+   1 | 1234   |Blanket             |  17.70| 400|Boxes     | 400|
+   2 | 2345   |Rice                |  15.99|  40|Bags      | 500|2017/12/23
+   3 | 5678   |Sugar               |   6.78|   0|1kg Bags  | 200|
+   4 | 123    |Beans               |  12.00| 200|kg        | 200|2018/12/22
+   5 | 122    |Bucket              |  11.30| 150|          | 300|
+   6 | 124    |Corn                |   4.00|   0|Packs     | 140|2018/ 4/ 3
+   7 | 200    |Sand Bags           |   3.38|  20|packs     |1000|
+   8 | 132    |Banana              |   0.99|   6|Kilos     |  10|2015/ 5/13
+   9 | 111    |Water Container     |  12.79| 100|packs     |5000|
+---------------------------------------------------------------------------
+Total cost of support: $1279.16
+
+Press Enter to continue...
+
+Disaster Aid Supply Management Program
+1- List products
+2- Display product
+3- Add non-perishable product
+4- Add perishable product
+5- Add to quantity of purchased products
+0- Exit program
+> 2
+
+Please enter the SKU: 2345
+
+Sku: 2345
+Name: Rice
+Price: 15.99
+Price after tax: N/A
+Quantity On Hand: 40 Bags
+Quantity Needed: 500
+Expiry date: 2017/12/23
+
+Press Enter to continue...
+
+Disaster Aid Supply Management Program
+1- List products
+2- Display product
+3- Add non-perishable product
+4- Add perishable product
+5- Add to quantity of purchased products
+0- Exit program
+> 4
+
+Sku: 1111
+Name: Milk
+Unit: bag
+Taxed? (y/n): n
+Price: 3.99
+Quantity On hand: 10
+Quantity Needed: 100
+Expiry date (YYYY/MM/DD): 2016/4/23
+*** glibc detected *** ms5for70: free(): invalid next size (normal): 0x08058ea8 ***
+======= Backtrace: =========
+/lib/libc.so.6(+0x6ff0b)[0xb74e8f0b]
+/usr/local/gcc/5.2.0/lib/libstdc++.so.6(_ZdlPv+0x18)[0xb76c9488]
+/usr/local/gcc/5.2.0/lib/libstdc++.so.6(_ZdaPv+0x18)[0xb76c94e8]
+/usr/local/gcc/5.2.0/lib/libstdc++.so.6(_ZNSt13basic_filebufIcSt11char_traitsIcEE26_M_destroy_internal_bufferEv+0x2a)[0xb7738b4a]
+/usr/local/gcc/5.2.0/lib/libstdc++.so.6(_ZNSt13basic_filebufIcSt11char_traitsIcEE5closeEv+0x57)[0xb773bc97]
+/usr/local/gcc/5.2.0/lib/libstdc++.so.6(_ZNSt13basic_fstreamIcSt11char_traitsIcEE5closeEv+0x1d)[0xb773d9ad]
+ms5for70[0x8049926]
+ms5for70[0x804a4d0]
+ms5for70[0x804a896]
+ms5for70[0x80497be]
+/lib/libc.so.6(__libc_start_main+0xf3)[0xb7492003]
+ms5for70[0x8049651]
+======= Memory map: ========
+08048000-08050000 r-xp 00000000 00:24 1808259    /home/kcho18/OOP244/Complete/Assignment/ms5for70/ms5for70
+08050000-08051000 r--p 00007000 00:24 1808259    /home/kcho18/OOP244/Complete/Assignment/ms5for70/ms5for70
+08051000-08052000 rw-p 00008000 00:24 1808259    /home/kcho18/OOP244/Complete/Assignment/ms5for70/ms5for70
+08052000-08077000 rw-p 00000000 00:00 0          [heap]
+b7476000-b7479000 rw-p 00000000 00:00 0 
+b7479000-b75e0000 r-xp 00000000 08:01 1365267    /lib/libc-2.14.1.so
+b75e0000-b75e2000 r--p 00167000 08:01 1365267    /lib/libc-2.14.1.so
+b75e2000-b75e3000 rw-p 00169000 08:01 1365267    /lib/libc-2.14.1.so
+b75e3000-b75e6000 rw-p 00000000 00:00 0 
+b75e6000-b7602000 r-xp 00000000 08:01 407172     /usr/local/gcc/5.2.0/lib/libgcc_s.so.1
+b7602000-b7603000 r--p 0001b000 08:01 407172     /usr/local/gcc/5.2.0/lib/libgcc_s.so.1
+b7603000-b7604000 rw-p 0001c000 08:01 407172     /usr/local/gcc/5.2.0/lib/libgcc_s.so.1
+b7604000-b762d000 r-xp 00000000 08:01 1365275    /lib/libm-2.14.1.so
+b762d000-b762e000 r--p 00028000 08:01 1365275    /lib/libm-2.14.1.so
+b762e000-b762f000 rw-p 00029000 08:01 1365275    /lib/libm-2.14.1.so
+b7650000-b7653000 rw-p 00000000 00:00 0 
+b7653000-b77d2000 r-xp 00000000 08:01 407187     /usr/local/gcc/5.2.0/lib/libstdc++.so.6.0.21
+b77d2000-b77d8000 r--p 0017e000 08:01 407187     /usr/local/gcc/5.2.0/lib/libstdc++.so.6.0.21
+b77d8000-b77d9000 rw-p 00184000 08:01 407187     /usr/local/gcc/5.2.0/lib/libstdc++.so.6.0.21
+b77d9000-b77dd000 rw-p 00000000 00:00 0 
+b77dd000-b77fc000 r-xp 00000000 08:01 1365260    /lib/ld-2.14.1.so
+b77fc000-b77fd000 r--p 0001f000 08:01 1365260    /lib/ld-2.14.1.so
+b77fd000-b77fe000 rw-p 00020000 08:01 1365260    /lib/ld-2.14.1.so
+bfb56000-bfb77000 rw-p 00000000 00:00 0          [stack]
+ffffe000-fffff000 r-xp 00000000 00:00 0          [vdso]
+Aborted
+kcho18@matrix:~/OOP244/Complete/Assignment/ms5for70> exit
+exit
+
+Script done on Sat 16 Apr 2016 11:04:07 PM EDT

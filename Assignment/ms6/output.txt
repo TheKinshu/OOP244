@@ -1,0 +1,105 @@
+Script started on Sun 17 Apr 2016 01:45:41 AM EDT
+kcho18@matrix:~/OOP244/Complete/Assignment/ms6> ms6
+Disaster Aid Supply Management Program
+1- List products
+2- Display products
+3- Add non-perishable product
+4- Add perishable product
+5- Add to quantity of purchased products
+0- Exit program
+> 1
+Press Enter to continue...
+Row | SKU    | Product Name      | Cost  | QTY| Unit      |Need| Expiry   
+----|--------|-------------------|-------|----|-----------|----|----------
+   1|1234   |Blanket             |  17.70| 400|Boxes     | 400|
+   2|2345   |Rice                |  15.99|  40|Bags      | 500|2017/12/23
+0003|5678   |Sugar               |   6.78|   0|1kg Bags  | 200|
+   4|123    |Beans               |  12.00| 200|kg        | 200|2018/12/22
+0005|122    |Bucket              |  11.30| 150|          | 300|
+   6|124    |Corn                |   4.00|   0|Packs     | 140|2018/04/03
+0007|200    |Sand Bags           |   3.38|  20|packs     |1000|
+   8|132    |Banana              |   0.99|   6|Kilos     |  10|2015/05/13
+0009|111    |Water Container     |  12.79| 100|packs     |5000|
+--------------------------------------------------------------------------
+Total cost of support: $13165.59
+Press Enter to continue...
+
+Disaster Aid Supply Management Program
+1- List products
+2- Display products
+3- Add non-perishable product
+4- Add perishable product
+5- Add to quantity of purchased products
+0- Exit program
+> 2
+Press Enter to continue...
+Please enter the SKU: 2345
+Sku: 1234
+Name: Blanket
+Price: 15.66
+Price after tax: 17.70
+Quantity On Hand: 400 Boxes
+Quantity Needed: 400Press Enter to continue...
+Disaster Aid Supply Management Program
+1- List products
+2- Display products
+3- Add non-perishable product
+4- Add perishable product
+5- Add to quantity of purchased products
+0- Exit program
+> 4
+Press Enter to continue...
+Sku: 1111
+Name: Milk
+Unit: bag
+Taxed? (y/n): n
+Price: 3.99
+Quantity On hand: 10
+Quantity Needed: 100
+Expiry date (YYYY/MM/DD): 2016/4/26
+*** glibc detected *** ms6: free(): invalid next size (normal): 0x08057ea8 ***
+======= Backtrace: =========
+/lib/libc.so.6(+0x6ff0b)[0xb742bf0b]
+/usr/local/gcc/5.2.0/lib/libstdc++.so.6(_ZdlPv+0x18)[0xb760c488]
+/usr/local/gcc/5.2.0/lib/libstdc++.so.6(_ZdaPv+0x18)[0xb760c4e8]
+/usr/local/gcc/5.2.0/lib/libstdc++.so.6(_ZNSt13basic_filebufIcSt11char_traitsIcEE26_M_destroy_internal_bufferEv+0x2a)[0xb767bb4a]
+/usr/local/gcc/5.2.0/lib/libstdc++.so.6(_ZNSt13basic_filebufIcSt11char_traitsIcEE5closeEv+0x57)[0xb767ec97]
+/usr/local/gcc/5.2.0/lib/libstdc++.so.6(_ZNSt13basic_fstreamIcSt11char_traitsIcEE5closeEv+0x1d)[0xb76809ad]
+ms6[0x8049b69]
+ms6[0x804a3f5]
+ms6[0x804a38e]
+ms6[0x804a2bc]
+ms6[0x80495d1]
+/lib/libc.so.6(__libc_start_main+0xf3)[0xb73d5003]
+ms6[0x8049511]
+======= Memory map: ========
+08048000-0804f000 r-xp 00000000 00:23 2440530639  /home/kcho18/OOP244/Complete/Assignment/ms6/ms6
+0804f000-08050000 r--p 00006000 00:23 2440530639  /home/kcho18/OOP244/Complete/Assignment/ms6/ms6
+08050000-08051000 rw-p 00007000 00:23 2440530639  /home/kcho18/OOP244/Complete/Assignment/ms6/ms6
+08051000-08076000 rw-p 00000000 00:00 0          [heap]
+b73b9000-b73bc000 rw-p 00000000 00:00 0 
+b73bc000-b7523000 r-xp 00000000 08:01 1365267    /lib/libc-2.14.1.so
+b7523000-b7525000 r--p 00167000 08:01 1365267    /lib/libc-2.14.1.so
+b7525000-b7526000 rw-p 00169000 08:01 1365267    /lib/libc-2.14.1.so
+b7526000-b7529000 rw-p 00000000 00:00 0 
+b7529000-b7545000 r-xp 00000000 08:01 407172     /usr/local/gcc/5.2.0/lib/libgcc_s.so.1
+b7545000-b7546000 r--p 0001b000 08:01 407172     /usr/local/gcc/5.2.0/lib/libgcc_s.so.1
+b7546000-b7547000 rw-p 0001c000 08:01 407172     /usr/local/gcc/5.2.0/lib/libgcc_s.so.1
+b7547000-b7570000 r-xp 00000000 08:01 1365275    /lib/libm-2.14.1.so
+b7570000-b7571000 r--p 00028000 08:01 1365275    /lib/libm-2.14.1.so
+b7571000-b7572000 rw-p 00029000 08:01 1365275    /lib/libm-2.14.1.so
+b7593000-b7596000 rw-p 00000000 00:00 0 
+b7596000-b7715000 r-xp 00000000 08:01 407187     /usr/local/gcc/5.2.0/lib/libstdc++.so.6.0.21
+b7715000-b771b000 r--p 0017e000 08:01 407187     /usr/local/gcc/5.2.0/lib/libstdc++.so.6.0.21
+b771b000-b771c000 rw-p 00184000 08:01 407187     /usr/local/gcc/5.2.0/lib/libstdc++.so.6.0.21
+b771c000-b7720000 rw-p 00000000 00:00 0 
+b7720000-b773f000 r-xp 00000000 08:01 1365260    /lib/ld-2.14.1.so
+b773f000-b7740000 r--p 0001f000 08:01 1365260    /lib/ld-2.14.1.so
+b7740000-b7741000 rw-p 00020000 08:01 1365260    /lib/ld-2.14.1.so
+bfa4c000-bfa6d000 rw-p 00000000 00:00 0          [stack]
+ffffe000-fffff000 r-xp 00000000 00:00 0          [vdso]
+Aborted
+kcho18@matrix:~/OOP244/Complete/Assignment/ms6> exit
+exit
+
+Script done on Sun 17 Apr 2016 01:46:28 AM EDT

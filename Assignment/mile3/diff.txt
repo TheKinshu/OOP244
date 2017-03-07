@@ -1,0 +1,10 @@
+
+In line number 3 of your output:
+The output should be:
+Linear: one two 
+But your output is: 
+exit
+^
+|
+Professors character ASCII code: hex(4c), dec(76)
+un-matched character ASCII code: hex(65), dec(101)

@@ -1,0 +1,2 @@
+/usr/lib/gcc/i586-suse-linux/4.6/../../../../i586-suse-linux/bin/ld: cannot open output file ms4: Is a directory
+collect2: ld returned 1 exit status

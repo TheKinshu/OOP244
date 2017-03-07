@@ -1,0 +1,10 @@
+
+In line number 10 of your output:
+The output should be:
+2- 0/00/00
+But your output is: 
+2- 000
+    ^
+----|
+Professors character ASCII code: hex(2f), dec(47)
+un-matched character ASCII code: hex(30), dec(48)

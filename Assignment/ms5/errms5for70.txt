@@ -1,0 +1,12 @@
+ms5for70.o: In function `sict::AidApp::loadRecs()':
+AidApp.cpp:(.text+0x382): undefined reference to `sict::AmaPerishable::AmaPerishable()'
+ms5for70.o: In function `sict::AidApp::deleteProduct(char const*)':
+AidApp.cpp:(.text+0x512): undefined reference to `sict::Product::operator==(char const*) const'
+ms5for70.o: In function `sict::AidApp::listProducts() const':
+AidApp.cpp:(.text+0xae9): undefined reference to `sict::operator<<(std::basic_ostream<char, std::char_traits<char> >&, sict::Product const&)'
+ms5for70.o: In function `sict::AidApp::SearchProducts(char const*) const':
+AidApp.cpp:(.text+0xc78): undefined reference to `sict::Product::operator==(char const*) const'
+ms5for70.o: In function `sict::AidApp::addProduct(bool)':
+AidApp.cpp:(.text+0xcfc): undefined reference to `sict::AmaPerishable::AmaPerishable()'
+AidApp.cpp:(.text+0xda7): undefined reference to `sict::operator<<(std::basic_ostream<char, std::char_traits<char> >&, sict::Product const&)'
+collect2: ld returned 1 exit status

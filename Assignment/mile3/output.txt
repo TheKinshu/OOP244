@@ -1,0 +1,24 @@
+Script started on Thu 17 Mar 2016 02:50:23 PM EDT
+kcho18@matrix:~/OOP244/Complete/Assignment/mile3> m[Ks3
+Linear: one two 
+As is: 
+one
+two
+
+Enter the folowing: 
+three<ENTER>
+four<ENTER>
+<Ctrl-D>
+
+three
+four
+one two three four 
+one
+two
+three
+four
+
+kcho18@matrix:~/OOP244/Complete/Assignment/mile3> exit
+exit
+
+Script done on Thu 17 Mar 2016 02:50:43 PM EDT
